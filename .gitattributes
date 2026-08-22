@@ -1,0 +1,2 @@
+*.jsonl.gz -diff
+*.jsonl.gz -text
