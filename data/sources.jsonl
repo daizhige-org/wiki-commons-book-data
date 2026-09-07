@@ -1,4 +1,3 @@
-{"name": "(no project source category)", "shard": "files/no_project_source_category.jsonl.gz"}
 {"name": "Ancient Books in the Three Gorges Museum", "shard": "files/ancient_books_in_the_three_gorges_museum.jsonl.gz"}
 {"name": "Ancient books in the Shanghai Library", "shard": "files/ancient_books_in_the_shanghai_library.jsonl.gz"}
 {"name": "Books from Fung Ping Shan Library", "shard": "files/books_from_fung_ping_shan_library.jsonl.gz"}
@@ -28,6 +27,7 @@
 {"name": "Republican Era Journals in the National Library of China", "shard": "files/republican_era_journals_in_the_national_library_of_china.jsonl.gz"}
 {"name": "Republican Era Laws in the National Library of China", "shard": "files/republican_era_laws_in_the_national_library_of_china.jsonl.gz"}
 {"name": "Republican Era Literature in the National Library of China", "shard": "files/republican_era_literature_in_the_national_library_of_china.jsonl.gz"}
+{"name": "Republican Era Newspapers in the National Library of China", "shard": "files/republican_era_newspapers_in_the_national_library_of_china.jsonl.gz"}
 {"name": "Scans from Harvard-Yenching's Chinese rare book collection", "shard": "files/scans_from_harvard_yenching_s_chinese_rare_book_collection.jsonl.gz"}
 {"name": "Scans from National Center for Philosophy and Social Sciences", "shard": "files/scans_from_national_center_for_philosophy_and_social_sciences.jsonl.gz"}
 {"name": "Scans from the China Academic Digital Associative Library", "shard": "files/scans_from_the_china_academic_digital_associative_library.jsonl.gz"}
@@ -35,5 +35,7 @@
 {"name": "Scans from the National Archives of Japan Digital Archive", "shard": "files/scans_from_the_national_archives_of_japan_digital_archive.jsonl.gz"}
 {"name": "Scans from the Rare Books & Special Collections, National Central Library", "shard": "files/scans_from_the_rare_books_special_collections_national_central_library.jsonl.gz"}
 {"name": "Scans from the Taiwan eBook database, National Central Library", "shard": "files/scans_from_the_taiwan_ebook_database_national_central_library.jsonl.gz"}
+{"name": "Scans from the Waseda University Library", "shard": "files/scans_from_the_waseda_university_library.jsonl.gz"}
 {"name": "Scans with a SSID", "shard": "files/scans_with_a_ssid.jsonl.gz"}
 {"name": "Zhaocheng Jin Tripitaka in the National Library of China", "shard": "files/zhaocheng_jin_tripitaka_in_the_national_library_of_china.jsonl.gz"}
+{"name": "（來源不明）", "shard": "files/unnamed.jsonl.gz"}
