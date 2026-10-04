@@ -3,7 +3,7 @@
 [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Library_back_up_project)
 上中文古籍與民國文獻掃描件的**書目後設資料快照**,JSON Lines 格式。
 
-**1,529,485 個掃描檔案 / 236,505 部書 / 41 個來源館藏**,共 41.5 TiB 的掃描件。
+**1,533,167 個掃描檔案 / 235,888 部書 / 41 個來源館藏**,共 41.6 TiB 的掃描件。
 壓縮後 217 MB。
 
 這裡放的是**後設資料,不是掃描件**——書名、撰者、年代、刊刻者、檔案 sha1、
@@ -41,15 +41,21 @@ import urllib.parse
 | 路徑 | 內容 | 大小 |
 |---|---|---|
 | `data/sources.jsonl` | 41 個來源館藏,以及各自的分片檔名 | 6 KB |
-| `data/files/<來源>.jsonl.gz` | 檔案層,1,529,485 筆,一個來源一片 | 206 MB |
-| `data/books.jsonl.gz` | 書籍層,236,505 筆(依書籍分類聚合) | 10.3 MB |
+| `data/files/<來源>.jsonl.gz` | 檔案層,1,533,167 筆,一個來源一片 | 207 MB |
+| `data/books.jsonl.gz` | 書籍層,235,888 筆(依書籍分類聚合) | 10.3 MB |
 | `data/kanripo.jsonl.gz` | 10,141 筆漢籍リポジトリ書目對照 | 0.2 MB |
 | `data/manifest.json` | 逐檔的行數 / 位元組 / sha256 | — |
 
 欄位語意、不變量、各層怎麼對起來,全部寫在 [docs/schema.md](docs/schema.md)。
 
-**檔案層按來源館藏分片**,不是按大小切。單一館藏重新收割時只有那一片變,
-git 歷史不會每次多一份 217 MB。最大的一片 59.5 MB。
+**檔案層按來源館藏分片**,不是按大小切,最大的一片 59.5 MB。
+
+分片原本是想讓「單一館藏重新收割時只有那一片變」,**實際上做不到**:
+`other_categories` 照實收錄維護分類,而那些在 Commons 上一直在動
+(`PD-old missing SDC copyright status`、`Books with Wikidata item missing …`
+之類,有人補了 SDC 或 Wikidata 就會消失),所以每次刷新幾乎每一片都有改動。
+2026-10-04 實測:早稻田那片 18,806 列變了 314 列(1.7%),變的全是
+`other_categories`。分片仍然有用(按館藏取用、單片下載),但**別指望它省 git 空間**。
 
 ## 這份快照裡有什麼、沒有什麼
 

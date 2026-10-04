@@ -1,16 +1,16 @@
 {
   "dataset": "wiki-commons-book-data",
   "schema_version": 1,
-  "exported": "2026-09-07T01:04:46Z",
+  "exported": "2026-10-04T02:14:44Z",
   "source_db": {
     "name": "commons_books.sqlite",
-    "mtime": "2026-09-07T00:16:33Z",
-    "bytes": 2017890304
+    "mtime": "2026-10-04T01:53:35Z",
+    "bytes": 2022313984
   },
   "counts": {
-    "books": 236505,
+    "books": 235888,
     "kanripo": 10141,
-    "files": 1529485,
+    "files": 1533167,
     "sources": 41
   },
   "files": {
@@ -20,9 +20,9 @@
       "sha256": "56ee53ac1471ad01c0e3e19e3fd8e1e14ff8b5af84a6ee74237ea05708ec4bbb"
     },
     "books.jsonl.gz": {
-      "rows": 236505,
-      "bytes": 10811465,
-      "sha256": "3b8431b3c87fdc310bc1a1880f002df4402e3b7ecb301a9da7764bfc3adf0c1b"
+      "rows": 235888,
+      "bytes": 10791459,
+      "sha256": "d62b1176b2f934f346d6f7bb9e541fb278269fee8e3f659f7e3f8028ee380a0f"
     },
     "kanripo.jsonl.gz": {
       "rows": 10141,
@@ -31,78 +31,78 @@
     },
     "files/ancient_books_in_the_three_gorges_museum.jsonl.gz": {
       "rows": 80,
-      "bytes": 6966,
-      "sha256": "229d83986d3d6bd5e4f18b04641b69d63148670194f4112813ea2419366b59e9"
+      "bytes": 6969,
+      "sha256": "b684641c2f24497a7e1ac6dd33e00bd7345384b5f6848de524f63f66800c9a3e"
     },
     "files/ancient_books_in_the_shanghai_library.jsonl.gz": {
       "rows": 18886,
-      "bytes": 1229784,
-      "sha256": "40236d4e7c1a8ca48c0e1ec14fda8923004e5bbf7fa93ab369e53f813a5e03d2"
+      "bytes": 1229866,
+      "sha256": "07bdc124c7be23679c7d33b8ffb5864b45878ed38c4339804dca83e76187a092"
     },
     "files/books_from_fung_ping_shan_library.jsonl.gz": {
       "rows": 763,
-      "bytes": 58556,
-      "sha256": "f9edb4fbd6d255222d9769846986ae005ba1e64d857175a81ce671b1a6412d01"
+      "bytes": 58575,
+      "sha256": "837f9903859433c915327bdbf035c9aa48e5f92ff6246930ee8f6c082d56ce40"
     },
     "files/books_from_ndl_digital_collection.jsonl.gz": {
       "rows": 27492,
-      "bytes": 1990097,
-      "sha256": "e334aad5be8afaf24a233569da4af5354e22315466e47e1a80095e442c430f70"
+      "bytes": 1990224,
+      "sha256": "25464d784452ded69cf73b0333f355762f32ae60df424fe59e68c0671138d7ca"
     },
     "files/books_from_the_naxi_literature_database.jsonl.gz": {
       "rows": 467,
-      "bytes": 38377,
-      "sha256": "3208eb59b3611efae279ba62cd78d2ce35b099cc67b6a918c4cde3216c4e2fe8"
+      "bytes": 38381,
+      "sha256": "a06c49e7e9d8d4828a9f8ebe78f4902b478c5cabaa937a18e490e2653bdb0999"
     },
     "files/books_in_tianyi_pavilion_museum.jsonl.gz": {
-      "rows": 5375,
-      "bytes": 675856,
-      "sha256": "fb033766378f9c655de045372903407793051a67b4c080705c40703c91604e77"
+      "rows": 5374,
+      "bytes": 675651,
+      "sha256": "d63428196766261fd0f41c1d3921019c028e734be79610f90a588fe509638c49"
     },
     "files/books_in_the_digital_library_of_the_national_library_of_korea.jsonl.gz": {
-      "rows": 37326,
-      "bytes": 2561960,
-      "sha256": "8dbd6a4ff2260cc3accc2b0abe717c8ec9f4ebd606b8674c139ee5e73f85b3c3"
+      "rows": 37336,
+      "bytes": 2562429,
+      "sha256": "04bc53fc900176d9837f2d899e9e4a39cceae50d47a07a0017ac93a4e7d53f22"
     },
     "files/books_in_the_nanjing_library.jsonl.gz": {
       "rows": 22742,
-      "bytes": 1477011,
-      "sha256": "e30251b6f114cb6b67ac666a5a3e3a1e90eb9d2b4503b5175a6d0d5113b1e948"
+      "bytes": 1477022,
+      "sha256": "5eb25c1f295c0bf3e5689387e472ce284faae9606dc5d19db59458c1e9d4a2ac"
     },
     "files/books_in_the_wenzhou_library.jsonl.gz": {
       "rows": 11410,
-      "bytes": 749449,
-      "sha256": "bdf50e6a468471b29cd88f215f4e96c9bb39b89ef32f3ddb8125e08ea4fcb5ac"
+      "bytes": 749849,
+      "sha256": "00c2f5ba07e5c8c57ba067dc565441ba3bbed7940913f87df9e49139c528eaed"
     },
     "files/books_in_the_yunnan_university_of_traditional_chinese_medicine_ancient_books_digital_library.jsonl.gz": {
       "rows": 1678,
-      "bytes": 162982,
-      "sha256": "265a0a39f72f2d6fcb86793b030519b6c619dc3b4b36adb8988cc37f24c75bbf"
+      "bytes": 162953,
+      "sha256": "a95e7c944bae80914bdfbfa038158dfd31716933c306e1dace9b8eb46c1d2f1b"
     },
     "files/books_in_the_zhejiang_library.jsonl.gz": {
       "rows": 16748,
-      "bytes": 2848382,
-      "sha256": "6a82b95e95be668954cbd47a8691ca472ae7f0a384690ca5e3c4d978a77df925"
+      "bytes": 2848385,
+      "sha256": "e3bab49b22cb011f26cee40a3d7cad18a51c26ae911ff449cc1569ba38a2e2ed"
     },
     "files/chinese_medicine_classics_in_the_national_library_of_china.jsonl.gz": {
       "rows": 1634,
-      "bytes": 102103,
-      "sha256": "511337f4514fd212329bc6d605ed2048038a7aa77afc4f723d9af2d364365302"
+      "bytes": 102154,
+      "sha256": "585e7a219150be644b3df9a85f03dd3fc95673520d7a605f41f14db4b757de19"
     },
     "files/classical_chinese_books_donated_by_the_eisei_bunko_museum_to_the_national_library_of_china.jsonl.gz": {
       "rows": 4441,
-      "bytes": 421175,
-      "sha256": "f4088aa6440a606833123706a00bf8f6fc4e8587ba2be088001fd368496c1a1d"
+      "bytes": 421182,
+      "sha256": "be3527cc0c98d4fa5071fd2b29d9e6db2ea9209ab08c759b0c25556bc05b7a51"
     },
     "files/digitized_ancient_books_in_the_national_library_of_china.jsonl.gz": {
-      "rows": 181847,
-      "bytes": 14026143,
-      "sha256": "e828f2dc7794433a992c0dcda383d9ce8e2601a1fca454e37cf7849cd2b39f9f"
+      "rows": 181654,
+      "bytes": 14013626,
+      "sha256": "7a925b814bfa5a74bb4747290e0f29ae62f8f2acd9a4a2af383fca335a7f116c"
     },
     "files/digitized_local_records_in_the_national_library_of_china.jsonl.gz": {
       "rows": 150055,
-      "bytes": 11359846,
-      "sha256": "ba0c960ab5a04165437c2fe4cf419bd63153c5311a4d3ef324a50a3179dcc8b8"
+      "bytes": 11360954,
+      "sha256": "a94dbc697ecc5cd5d62275db471095a55aa172601fe8cbdbe9f017eedfe65a19"
     },
     "files/featured_collections_of_ancient_books_of_ethnic_scripts_from_various_regions_in_the_national_library_of_china.jsonl.gz": {
       "rows": 39,
@@ -126,23 +126,23 @@
     },
     "files/literature_collections_of_song_period_in_the_national_library_of_china.jsonl.gz": {
       "rows": 1916,
-      "bytes": 110725,
-      "sha256": "c8396ed0bc3ae2bbc325d413230ac85c0e79e31ea91cce7ec861c4a69c906c03"
+      "bytes": 110782,
+      "sha256": "d6090ebd46c3f1a864a561c50e4346fdd4369145c6b697a11bb6c5c5d6286e56"
     },
     "files/local_records_in_the_national_library_of_china.jsonl.gz": {
       "rows": 2646,
-      "bytes": 217951,
-      "sha256": "358cba102e90e044396898adbe68567f2e20d2926701fb66563690238f09132d"
+      "bytes": 217962,
+      "sha256": "2fffec83cf7ffabfa350fb03d2bb76116af906a4371500c1880d56113f9ed139"
     },
     "files/national_library_of_china_tianjin_library_ancient_books.jsonl.gz": {
       "rows": 41833,
-      "bytes": 3405868,
-      "sha256": "e1d9f62a6395d861645360753b3dd4edc827480f3c558288094bf138054556b7"
+      "bytes": 3405935,
+      "sha256": "6f014ff1f3321b65a0e87648be7338248f104d0f267a55f2d63b024a5a4d0a5f"
     },
     "files/national_library_of_china_yunnan_provincial_library_ancient_books.jsonl.gz": {
       "rows": 1264,
-      "bytes": 120592,
-      "sha256": "512ca61a64e4386336de5d9551db377b5c62de4fba1b37f4207d8169c52c3596"
+      "bytes": 120588,
+      "sha256": "b33d489c29415bca30ae925ef073481fefa2cb20785fa9805197bdd0866ea5da"
     },
     "files/newspapers_in_the_digital_library_of_the_national_library_of_korea.jsonl.gz": {
       "rows": 77,
@@ -155,24 +155,24 @@
       "sha256": "ae2aabccf446f38c84190ea958ac98a1282fc1af821ce5ec1984e9e493dbbf37"
     },
     "files/republican_era_books_in_the_national_library_of_china.jsonl.gz": {
-      "rows": 98260,
-      "bytes": 62375772,
-      "sha256": "b2416e5e0de08555c624a25393efe389e122130c019ed86b69a3631f958fcba0"
+      "rows": 98262,
+      "bytes": 62380375,
+      "sha256": "83c2544eb29788959e6ba7e86cc15fd34327b3f28c4a02a27a365bf4eb25db8a"
     },
     "files/republican_era_journals_in_the_national_library_of_china.jsonl.gz": {
       "rows": 98648,
-      "bytes": 40032224,
-      "sha256": "e40f54095cf17e074678a9712d8ecfee4ea2ad1bb79d5a7fdcaea6e7717d8b61"
+      "bytes": 40035016,
+      "sha256": "2950dd92551ed4ca64fd3d01e9b15df963c9a9bd1905d2c48a73ec4d43fc8212"
     },
     "files/republican_era_laws_in_the_national_library_of_china.jsonl.gz": {
       "rows": 8037,
-      "bytes": 695044,
-      "sha256": "b0442474125c14ca9fcebda3df926b06753510d7c470974954314f1970b9d1a9"
+      "bytes": 695098,
+      "sha256": "7be92a5ddf029cb9f5737883675c1816bd4e201551e3e052e1b67013298d213b"
     },
     "files/republican_era_literature_in_the_national_library_of_china.jsonl.gz": {
-      "rows": 72905,
-      "bytes": 18244891,
-      "sha256": "8af7b8c042a1e16df484face40b8b2db2d3624a7d9041cbc8eb1c5d6922d4f52"
+      "rows": 72902,
+      "bytes": 18244859,
+      "sha256": "f165dd384baf15eece5e500c04f9eace6078db650e5b49ed4ad51b26de873376"
     },
     "files/republican_era_newspapers_in_the_national_library_of_china.jsonl.gz": {
       "rows": 9443,
@@ -180,59 +180,59 @@
       "sha256": "560ebf844f29f21eea13fc231aceb831f5434af8bd589bfa799f20c1efa6adba"
     },
     "files/scans_from_harvard_yenching_s_chinese_rare_book_collection.jsonl.gz": {
-      "rows": 46485,
-      "bytes": 3352016,
-      "sha256": "d099b5f10addfd55cece9bc9116549aa9271445b2cc5f2d59f26634f0bd9fc2f"
+      "rows": 46486,
+      "bytes": 3352293,
+      "sha256": "7871a4cf061130e112a7ef5610e050f45628ca19893fd1a034795e813926091f"
     },
     "files/scans_from_national_center_for_philosophy_and_social_sciences.jsonl.gz": {
       "rows": 19624,
-      "bytes": 1153962,
-      "sha256": "704ebdc46e835596bc656dce619426d3ec60b60330dd7436486db80e948313b0"
+      "bytes": 1155204,
+      "sha256": "ca9af013e7a691d4a4d3e233090a329cd3188ac8df5192fcc077692a1063001f"
     },
     "files/scans_from_the_china_academic_digital_associative_library.jsonl.gz": {
-      "rows": 223640,
-      "bytes": 14488397,
-      "sha256": "f83740f78ffea0b0a7821114d7a9f5d26af6c692228e7374ebd48b2f7cfe20d9"
+      "rows": 223610,
+      "bytes": 14493769,
+      "sha256": "b9b074e1616b666da5c8471bd8a38835c3cd3258ceda6135f421de7d1c7d8c80"
     },
     "files/scans_from_the_institute_for_advanced_studies_on_asia.jsonl.gz": {
       "rows": 10600,
-      "bytes": 545385,
-      "sha256": "cff587749de8a799b1f3efac0414d7dd25aad6d2a450d26c9a01d7d0fb9d2285"
+      "bytes": 545802,
+      "sha256": "584ce9cc3106baa27fec9bcb1ea308da8d755558b5d51bb07c91b3c063d663f1"
     },
     "files/scans_from_the_national_archives_of_japan_digital_archive.jsonl.gz": {
       "rows": 48541,
-      "bytes": 2711583,
-      "sha256": "15f6a8e2afd8becc563053f24995f19d679a2a4805c390a24fec7c1df90ffbb5"
+      "bytes": 2711855,
+      "sha256": "1497814ede1af2078f2db82fd53af962650e4db05a01aa793f4f6b1af0663ffa"
     },
     "files/scans_from_the_rare_books_special_collections_national_central_library.jsonl.gz": {
       "rows": 31270,
-      "bytes": 5157616,
-      "sha256": "3e114053cff996d7fe88462761959b52374726a9f953c6f2a9f1eecadef99e1d"
+      "bytes": 5157658,
+      "sha256": "e4778eeac962088cfa15a7ab94e5ef90cc69eff22e75dfa194505c7692cc4392"
     },
     "files/scans_from_the_taiwan_ebook_database_national_central_library.jsonl.gz": {
-      "rows": 30909,
-      "bytes": 2663882,
-      "sha256": "70625eacf5386dec98ab55566fe130cdf70a0b7535c30cf1dca15e99881f5035"
+      "rows": 30912,
+      "bytes": 2668782,
+      "sha256": "c651a2f112c1fca09ae7baa18e99f9c5c96471241d4459e838ab009713521c82"
     },
     "files/scans_from_the_waseda_university_library.jsonl.gz": {
       "rows": 18806,
-      "bytes": 2427825,
-      "sha256": "18ab869a8bd28b2e10c62fe66b5a45a51e87324c118a29e27631293f3538dc05"
+      "bytes": 2427790,
+      "sha256": "307c0d4e9560bd1f4f2adf2eb80a006b513005a0fc1dfe79cfdb359613a68402"
     },
     "files/scans_with_a_ssid.jsonl.gz": {
-      "rows": 195659,
-      "bytes": 13740990,
-      "sha256": "1917bf482b4dcd57a72d572880888b0c56002b2d675b9703fd043631cad5d227"
+      "rows": 195597,
+      "bytes": 13746841,
+      "sha256": "8901733558600fddf9f67dd86cc5cc8f71b5fd2112fd422e1503cf8161e4afb0"
     },
     "files/zhaocheng_jin_tripitaka_in_the_national_library_of_china.jsonl.gz": {
       "rows": 4962,
-      "bytes": 327263,
-      "sha256": "10d4a8d87684c1af23e181603192de8f3929006956bde91f147bd863c2e352ab"
+      "bytes": 327395,
+      "sha256": "ed155dcc27a8a316388e691c1ffb4376ce3b442e1e19f4773215262487bc12ab"
     },
     "files/unnamed.jsonl.gz": {
-      "rows": 57441,
-      "bytes": 4398836,
-      "sha256": "2f32005184637cde254b0deb269f8b5b6b22601463e1944c2329877e128d16c8"
+      "rows": 61396,
+      "bytes": 4957806,
+      "sha256": "141aef663262691d9593346b8853b7c4250fdca0a5bf24d34fa317c3280a33a6"
     }
   }
 }
